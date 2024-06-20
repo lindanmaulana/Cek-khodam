@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cek khodam</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="bg-[url(/bg.jpeg)] w-full h-screen bg-cover bg-center">
+        <div class="container mx-auto max-w-3xl gap-x-4 flex justify-center items-center h-full">
+            <div class="gap-y-2 flex flex-col bg-white/20 text-center backdrop-blur-md rounded-md px-8 py-4">
+                <h1 class="text-white text-2xl font-semibold">Cek Khodam</h1>
+                <p class="text-white/50">Khodam yang ada di dalam diri</p>
+                <input type="text" id="nama-user" class="py-2 text-xl px-4 text-white font-bold my-auto flex justify-center items-center bg-transparent border outline-none " placeholder="masukan nama anda" id="jenis-khodam" />
+                <button onclick="cekKhodam()" id="btn-cek" class="bg-red-800 text-white px-4 py-1 rounded-md">cek nama anda</button>
+            </div>
+            <div class="bg-white/20 text-center backdrop-blur-md rounded-md px-8 py-4">
+                <h1 class="text-white text-2xl font-semibold">Cek Khodam</h1>
+                <p class="text-white/50">Khodam yang ada di dalam diri <span class="text-pink-500" id="diri-user"></span> </p>
+                <h2 class="py-10 h-12 text-4xl font-bold text-pink-500 my-auto flex justify-center items-center" id="jenis-khodam"></h2>
+                <p class="text-sm text-white/60">jangan lupa share ke yang lain agar mereka tahu sosok asli yang ada di dalamd diri kamu</p>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/script.js"></script>
+</body>
+</html>
