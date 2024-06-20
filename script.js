@@ -30,7 +30,7 @@
         { id: 5, nama: "Maung Bodas" },
         { id: 6, nama: "Belek" },
         { id: 7, nama: "Rogoh" },
-        { id: 8, nama: "Kangklek" },
+        { id: 8, nama: "Maung Bodas" },
         { id: 9, nama: "Munjad" },
         { id: 10, nama: "Robguh" },
         { id: 11, nama: "Jaka Tarub" },
